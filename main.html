@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MikiGDPS</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 30px 0;
+    }
+
+    .btn {
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 1.2em;
+      width: 300px;
+      display: block;
+      margin: 15px auto;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #333;
+    }
+
+    .section {
+      display: none;
+      margin-top: 30px;
+    }
+
+    .cookie-count {
+      font-size: 2em;
+      margin: 20px 0;
+    }
+
+    .cookie-btn {
+      font-size: 1.5em;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    textarea {
+      width: 80%;
+      height: 100px;
+      margin: 10px auto;
+      display: block;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>MikiGDPS(But Better (Moded))</h1>
+
+  <button class="btn" onclick="showSection('downloads')">Go to downloads</button>
+  <a class="btn" href="https://mikigamer888.github.io/MikiGDPS-Webside/notNesesary/FirstLogonAnim.html" target="_blank">FirstLogonAnim.html</a>
+  <button class="btn" onclick="showSection('clicker')">Open clicker game 🍪</button>
+  <button class="btn" onclick="showSection('tts')">Text to speech program</button>
+  <button class="btn" onclick="showSection('redirect')">Redirect to original website</button>
+
+  <!-- Downloads Section -->
+  <div id="downloads" class="section">
+    <h2>Downloads</h2>
+    <a href="https://github.com/Nikita534cool/MikiGDPSInstaller/releases/download/working/Installer.bat" class="btn" target="_blank">Installer for MikiGDPS</a>
+    <button class="btn" onclick="closeSection()">Close</button>
+  </div>
+
+  <!-- Redirect Section -->
+  <div id="redirect" class="section">
+    <h2>Original Website</h2>
+    <a href="https://tinyurl.com/MikiGDPS" class="btn" target="_blank">Go to MikiGDPS Site</a>
+    <button class="btn" onclick="closeSection()">Close</button>
+  </div>
+
+  <!-- Clicker Game Section -->
+  <div id="clicker" class="section">
+    <h2>Cookie Clicker 🍪</h2>
+    <div class="cookie-count" id="cookieCount">Cookies: 0</div>
+    <button class="cookie-btn" onclick="addCookie()">Click Me!</button>
+    <button class="btn" onclick="closeSection()">Close</button>
+  </div>
+
+  <!-- Text-to-Speech Section -->
+  <div id="tts" class="section">
+    <h2>Text to Speech</h2>
+    <textarea id="speechText" placeholder="Type something to speak..."></textarea>
+    <button class="btn" onclick="speakText()">Speak</button>
+    <button class="btn" onclick="closeSection()">Close</button>
+  </div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(sec => sec.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+
+    function closeSection() {
+      document.querySelectorAll('.section').forEach(sec => sec.style.display = 'none');
+    }
+
+    let cookies = 0;
+    function addCookie() {
+      cookies++;
+      document.getElementById('cookieCount').textContent = 'Cookies: ' + cookies;
+    }
+
+    function speakText() {
+      const text = document.getElementById('speechText').value;
+      const utterance = new SpeechSynthesisUtterance(text);
+      speechSynthesis.speak(utterance);
+    }
+  </script>
+</body>
+</html>
