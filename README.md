@@ -3,4 +3,5 @@ This is better page then [Mikigdps official website](https://mikigamer888.github
 link for my website [My website MikiGDPS But Better And Moded](https://nikita534cool.github.io/MikiGDPSMODED/)
 # Side project's (*LOL*)
 [dontclickthecat](https://nikita534cool.github.io/MikiGDPSMODED/dontclickthecat.html);
-[Hello!](https://nikita534cool.github.io/MikiGDPSMODED/Hello.html)
+[Hello!](https://nikita534cool.github.io/MikiGDPSMODED/Hello.html);
+[Labirynt Lite copyrigthed by me](https://nikita534cool.github.io/MikiGDPSMODED/Labirynt_Lite.html);
