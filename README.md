@@ -5,3 +5,4 @@ link for my website [My website MikiGDPS But Better And Moded](https://nikita534
 [dontclickthecat](https://nikita534cool.github.io/MikiGDPSMODED/dontclickthecat.html);
 [Hello!](https://nikita534cool.github.io/MikiGDPSMODED/Hello.html);
 [Labirynt Lite copyrigthed by me](https://nikita534cool.github.io/MikiGDPSMODED/Labirynt_Lite.html);
+[Buckshot Roulete made in scratch 1.4 old btw][https://nikita534cool.github.io/MikiGDPSMODED/BuckshotRoulete.html];
