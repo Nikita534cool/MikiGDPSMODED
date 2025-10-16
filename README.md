@@ -10,4 +10,4 @@ link for my website [My website MikiGDPS But Better And Moded](https://nikita534
 [Buckshot Roulete made in scratch 1.4 old btw](https://nikita534cool.github.io/MikiGDPSMODED/BuckshotRoulete.html);
 [Kuru Kuru Game](https://nikita534cool.github.io/MikiGDPSMODED/Kuru_Kuru.html);
 [Gameble!](https://nikita534cool.github.io/MikiGDPSMODED/Gamble.html)
-[The BEST GAME IN THE WORLD ignore login its needed for the game trust me](https://nikita534cool.github.io/MikiGDPSMODED/TheBestGameIntheWORLD.html);
+[The BEST GAME IN THE WORLD ignore login its needed for the game trust me](https://nikita534cool.github.io/MikiGDPSMODED/TheBestGameIntheWORLD.html.html);
